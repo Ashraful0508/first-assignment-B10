@@ -1,0 +1,241 @@
+
+.azeret-mono-normal{
+  font-family: "Azeret Mono", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.name{
+    font-weight: 800;
+    font-size: 24px;
+}
+
+.banner-title{
+    font-weight: 800;
+    font-size: 48px;
+}
+/* 
+.element-content, .element-1, .element-2{
+    gap: 24px; */
+}
+
+
+.bt{
+    font-weight: 600;
+    font-size: 20px;
+    width: 244px;
+    height: 57px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.btn{
+    font-weight: 600;
+    font-size: 20px; 
+    color: white;
+    background-color: #0D1321;
+    border-radius: 8px;
+    width: 244px;
+    height: 65px;
+}
+
+.am-title{
+    text-align: center;
+    font-weight: 800;
+   font-size: 32px;
+}
+.am-description{
+    text-align: center;
+}
+
+main{
+ max-width: 1000px;
+margin-top: 130px;
+margin-bottom: 130px;
+}
+
+.video-tag{
+    display: block;
+    margin: auto;
+}
+
+/* body */
+body{
+    margin: 0px 150px;
+    max-width: 1140px;
+    max-height: 1393px;
+}
+
+/* header */
+header{
+    background-image: url(../images/assets/Hero-bg.png);
+}
+
+.section-title{
+   text-align: center;
+   font-weight: 800;
+   font-size: 32px;
+}
+
+
+
+.btn-primary{
+    text-align: center;
+}
+.section-description{
+    text-align: center;
+}
+.document{
+    margin-top: 100px;
+}
+
+
+/* div styles */
+div{
+    text-align: center;
+}
+
+.about-item{
+   margin-top: 65px;
+   text-align: left;
+}
+
+.ambition-description{
+    text-align: center;
+}
+
+.ambition-title{
+    text-align: center;
+    font-weight: 800;
+   font-size: 32px;
+}
+
+  .title-tag{
+    text-align: center;
+    font-weight: 800;
+   font-size: 32px;
+  } 
+
+
+.item-tag{
+    text-align: center;
+}
+
+.second-item{
+    display: flex;
+    justify-content: space-between;
+}
+
+.first-item{
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-items{
+    display: flex;
+   justify-content: space-between;
+}
+
+.banner-picture{
+    display: block;
+     margin: auto;
+}
+
+.about-items, .first-item, .second-item{
+    gap: 32px;
+    /* box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); */
+    margin: 80px 97px;
+}
+
+
+/* nav styles */
+nav{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin: 50px 150px;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul {
+    /* display: flex; */
+}
+
+/* skill styles */
+.skills-content{
+    display: flex;
+    gap: 24px;
+}
+.skill{
+    padding: 40px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.element{
+display: flex;
+/* justify-content: space-between; */
+}
+.element-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 40px;
+    text-align: left;
+}
+
+.element-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 40px;
+    text-align: left;
+}
+.element-content{
+    text-align: left;
+    padding: 40px 40px;
+    border-radius: 16px;
+}
+
+/* footer */
+footer{
+    background-image: url(../images/assets/handshake.jpg);
+    /* width: 1140px;
+    height: 313px; */
+     padding: 64px 48px;
+     margin: auto;
+}
+   
+
+
+
+.advice{
+    color: white;
+}
+
+.f-d{
+    font-size: 20px;
+    font-weight: 400px;
+    color: #FFFFFF;
+    opacity: 100%;
+}
+.social-content{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.bar{
+    width: 548px;
+    height: 57px;
+    border-radius: 8px;
+}
+button{
+    width: 120px;
+    height: 57px;
+    border-radius: 8px;
+}
+.bar, button{
+    gap: 16px;
+}
